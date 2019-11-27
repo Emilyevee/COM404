@@ -46,11 +46,7 @@ class Gui(Tk):
         # style
         self.buy_button.configure(text="Buy")
 
-# main.py
-from gui import Gui
 
-my_gui = Gui()
-my_gui.mainloop()
 
 if (__name__ == "__main__"):
     gui = Gui()
