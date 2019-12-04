@@ -30,7 +30,7 @@ class Gui(Tk):
         self.tenor_label.grid(row=1, column=0)
         self.tenor_label.configure(image=self.cactusleaves_image, height=360, width=360)
 
-    def __add_flip_button(self):
+    def __add_flip_button(self):git 
         self.flip_button =Button()
         self.flip_button.grid(row=3, column=0)
         self.flip_button.configure(text="Flip")
